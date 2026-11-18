@@ -1,0 +1,18 @@
+{
+  "tor": {
+    "trans_port": 9040,
+    "dns_port": 5353,
+    "socks_port": 9050,
+    "bootstrap_timeout": 240,
+    "tor_user": "auto"
+  },
+  "bridges": {
+    "plain": [],
+    "obfs4": [],
+    "webtunnel": [],
+    "snowflake": []
+  },
+  "firewall": {
+    "allow_lan": true
+  }
+}
